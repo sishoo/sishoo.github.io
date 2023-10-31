@@ -1,0 +1,94 @@
+/* 
+@font-face {
+  font-family: 'Dosis-SemiBold';
+  src: url('assets/Dosis-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+} */
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+canvas {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -9999;
+  /* background-image: url("assets/Background_space_original.png");
+  background-size: cover; 
+  background-repeat: no-repeat;
+  image-rendering: pixelated; */
+}
+
+/* Apply styles to the page header container */
+.page-header {
+  text-align: left;
+  padding: 20px;
+  color: white;
+}
+
+/* Style the page header title */
+.page-header-title {
+  font-size: 100px;
+  /* Set the font size for the title */
+  margin: 0;
+  /* Remove any default margins */
+}
+
+/* Style the page header description */
+.page-header-description {
+  font-size: 18px;
+  /* Set the font size for the description */
+  margin: 0;
+  /* Remove any default margins */
+}
+
+/* CSS code for positioning the navigation menu at the bottom left */
+nav {
+  font-size: xx-large;
+  position: fixed;
+  bottom: 0;
+  left: 0; /* Background color of the navigation menu */
+  padding: 20px; /* Padding around the navigation menu items */
+}
+
+/* CSS code for styling the navigation menu links */
+nav ul {
+  list-style-type: none; /* Remove bullet points from the list */
+  padding: 0;
+}
+
+nav ul li {
+  margin-bottom: 10px;
+}
+
+nav a {
+  color: white; /* Text color of the menu items */
+  text-decoration: none; /* Remove underline from links */
+}
+
+/* CSS code to change the appearance of links on hover */
+nav a:hover {
+  text-decoration: underline; /* Underline links on hover */
+}
+
+.content {
+  display: none;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  color: white;
+}
+
+
+
+
+
+
+
+
